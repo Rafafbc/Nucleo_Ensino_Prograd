@@ -75,6 +75,47 @@ body {
     background-color: #005bb5;
 }
 
+/* Alterar a cor do botão e do link ao clicar */
+#link1:active {
+    transform: translateY(2px); /* Move o botão para baixo */
+    box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
+    background-color: #673ab7;
+}
+
+#link2:active {
+    transform: translateY(2px); /* Move o botão para baixo */
+    box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
+    background-color: #1c8514;
+}
+  
+.link span {
+    position: relative;
+    z-index: 1;
+}
+
+.link span:active {
+    color: #000000;
+}
+
+/*
+/* Efeito de clique no link
+.link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff4d;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .link:active::after {
+    opacity: 1;
+  }*/
+
 /*.link .link-cover {
     position: absolute;
     top: 0;
@@ -85,11 +126,6 @@ body {
     background-position: center;
     opacity: 0.2;
 }*/
-
-.link span {
-    position: relative;
-    z-index: 1;
-}
 
 /* Media Queries */
 @media (min-width: 768px) {
