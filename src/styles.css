@@ -75,6 +75,19 @@ body {
     background-color: #005bb5;
 }
 
+body .links {
+    gap: 15px;
+}
+
+body .links .container2 {
+    border: 3px dashed rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 5px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 /* Alterar a cor do botão e do link ao clicar */
 #link1:active {
     transform: translateY(2px); /* Move o botão para baixo */
@@ -83,6 +96,12 @@ body {
 }
 
 #link2:active {
+    transform: translateY(2px); /* Move o botão para baixo */
+    box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
+    background-color: blue;
+}
+
+#link3:active {
     transform: translateY(2px); /* Move o botão para baixo */
     box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
     background-color: #1c8514;
