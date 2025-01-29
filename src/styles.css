@@ -98,10 +98,16 @@ body .links .container2 {
 #link2:active {
     transform: translateY(2px); /* Move o botão para baixo */
     box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
-    background-color: blue;
+    background-color: rgb(193, 193, 4);
 }
 
 #link3:active {
+    transform: translateY(2px); /* Move o botão para baixo */
+    box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
+    background-color: rgb(0, 0, 214);
+}
+
+#link4:active {
     transform: translateY(2px); /* Move o botão para baixo */
     box-shadow: 0 2px 3px #000000; /* Reduz a sombra para simular o movimento */
     background-color: #1c8514;
